@@ -3,11 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10833333333333334" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_back_white.xml" value="0.1125" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml" value="0.1787037037037037" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_email_gray.xml" value="0.10833333333333334" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10833333333333334" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_lock_gray.xml" value="0.10833333333333334" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_logout_white.xml" value="0.10833333333333334" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/ic_pdf_white.xml" value="0.18333333333333332" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/shape_button.xml" value="0.18796296296296297" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/shape_button01.xml" value="0.18796296296296297" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/shape_edittext.xml" value="0.1125" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/shape_toolbar.xml" value="0.1125" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/drawable/shape_toolbar01.xml" value="0.1125" />
+        <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/layout/activity_category.xml" value="0.25" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.22" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/layout/activity_dashboard_user.xml" value="0.22" />
         <entry key="..\:/Android App/BookAppkotlin/app/src/main/res/layout/activity_login.xml" value="0.18" />

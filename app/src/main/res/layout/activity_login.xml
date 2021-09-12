@@ -95,15 +95,16 @@
                 android:text="Forget?"
                 android:layout_alignParentEnd="true"
                 android:textColor="@color/gray02"/>
+
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnLogin"
-                android:text="Login"
                 android:layout_below="@id/forgetTV"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/shape_button"
-                android:textColor="@color/white"/>
+                android:text="Login"
+                android:textColor="@color/white" />
 
 
         </RelativeLayout>

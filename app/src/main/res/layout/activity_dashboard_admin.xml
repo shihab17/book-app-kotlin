@@ -41,5 +41,42 @@
 
 
     </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llBottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCategory"
+            android:layout_weight="1"
+            android:text="+ Add Category"
+            android:background="@drawable/shape_button"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            android:minHeight="50dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fabAddPdf"
+            android:backgroundTint="@color/purple_500"
+            app:fabCustomSize="50dp"
+            android:src="@drawable/ic_pdf_white"
+            android:tint="@color/white"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
 
 </RelativeLayout>

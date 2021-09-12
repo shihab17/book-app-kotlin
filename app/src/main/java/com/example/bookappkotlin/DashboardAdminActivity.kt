@@ -23,6 +23,10 @@ class DashboardAdminActivity : AppCompatActivity() {
             firebaseAuth.signOut()
             checkUser()
         }
+        binding.btnCategory.setOnClickListener {
+            startActivity(Intent(this,CategoryActivity::class.java))
+            finish()
+        }
     }
 
     private fun checkUser() {
