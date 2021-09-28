@@ -1,10 +1,10 @@
 package com.example.bookappkotlin
 
 class ModelCategory {
-    var id:String = ""
-    var category:String = ""
-    var timestamp:Long = 0
-    var uid:String = ""
+    var id: String = ""
+    var category: String = ""
+    var timestamp: Long = 0
+    var uid: String = ""
 
     constructor()
     constructor(id: String, category: String, timestamp: Long, uid: String) {
@@ -13,5 +13,4 @@ class ModelCategory {
         this.timestamp = timestamp
         this.uid = uid
     }
-
 }

@@ -28,7 +28,24 @@ class DashboardAdminActivity : AppCompatActivity() {
 
         checkUser()
         loadCategories()
+        searchCategories()
 
+
+        binding.btnLogout.setOnClickListener {
+            firebaseAuth.signOut()
+            checkUser()
+        }
+        binding.btnCategory.setOnClickListener {
+            startActivity(Intent(this, CategoryActivity::class.java))
+            finish()
+        }
+        binding.fabAddPdf.setOnClickListener {
+            startActivity(Intent(this,PdfActivity::class.java))
+            finish()
+        }
+    }
+
+    private fun searchCategories() {
         binding.etSearch.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
@@ -37,6 +54,7 @@ class DashboardAdminActivity : AppCompatActivity() {
             override fun onTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 try {
                     adapterCategory.filter.filter(s)
+//                    Toast.makeText(this@DashboardAdminActivity,s,Toast.LENGTH_SHORT).show()
                 } catch (e: Exception) {
 
                     Toast.makeText(
@@ -52,15 +70,6 @@ class DashboardAdminActivity : AppCompatActivity() {
             }
 
         })
-
-        binding.btnLogout.setOnClickListener {
-            firebaseAuth.signOut()
-            checkUser()
-        }
-        binding.btnCategory.setOnClickListener {
-            startActivity(Intent(this, CategoryActivity::class.java))
-            finish()
-        }
     }
 
     private fun loadCategories() {
